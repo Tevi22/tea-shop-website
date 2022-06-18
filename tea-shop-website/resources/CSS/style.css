@@ -1,0 +1,100 @@
+/*Unversal*/
+html {
+    font-family: 'Helvetic';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*Header*/
+
+header {
+    border-bottom: 1px solid seashell;
+}
+
+header .logo {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+header .content{
+    display: flex;
+    float: right;
+   
+}
+
+header nav ul li{
+    display: inline;
+    float: right
+    list-style: none ;
+    color: seashell;
+}
+
+li{
+    color: seashell;
+}
+/* Mission Sectionn */
+#mission {
+    background-image: 
+    url(/tea-shop-website/resources/images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    text-align: center;
+}
+
+.main-text{
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    bottom: 35%;
+    
+}
+
+/* Featured Tea Section */
+
+.content {
+    text-align: center;
+}
+
+
+#feature .content .flex-container{
+    display: flex 
+       
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    
+   
+}
+
+/* Location Section */
+
+#locations {
+    background-image: 
+    url(/tea-shop-website/resources/images/img-locations-background.jpg);
+    display: flex;
+    height: 500px;
+    width: 1200px;
+}
+
+.location {
+    
+    
+}
+ /* Contact Section*/
+.contact {
+    height: 200px;
+    text-align: center;
+
+}
+
+/* Footer */
+
+footer {
+    margin-left: 20px;
+}
