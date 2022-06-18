@@ -65,6 +65,7 @@ li{
        
 }
 
+
 img {
     max-width: 200px;
     height: auto;
@@ -74,19 +75,27 @@ img {
 
 /* Location Section */
 
-#locations {
+#text {
+    display: inline-flex;
+    align-content: center;
     background-image: 
     url(/tea-shop-website/resources/images/img-locations-background.jpg);
-    display: flex;
     height: 500px;
     width: 1200px;
+    margin-bottom: 15px;
 }
 
-.location {
-    
-    
+.location{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 300px;
+    width: 300px;
 }
- /* Contact Section*/
+
+
+/* Contact Section*/
+
 .contact {
     height: 200px;
     text-align: center;
