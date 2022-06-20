@@ -11,92 +11,103 @@ html {
 
 header {
     border-bottom: 1px solid seashell;
-}
-
-header .logo {
+    height: 69px;
     display: inline;
-    margin-right: 10px;
+    position: fixed;
+    top: 0;
 }
 
-
-header .content{
+.flexbox {
     display: flex;
-    float: right;
    
+
 }
 
-header nav ul li{
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    padding: ;
+}
+
+
+li {
     display: inline;
-    float: right
-    list-style: none ;
-    color: seashell;
-}
 
-li{
-    color: seashell;
 }
-/* Mission Sectionn */
-#mission {
-    background-image: 
-    url(/tea-shop-website/resources/images/img-mission-background.jpg);
+/* Mission. Sectionn */
+
+.box{
     height: 700px;
+    width: 1200px;
+}
+#mission {
+    background-image:
+        url(/tea-shop-website/resources/images/img-mission-background.jpg);
+    height: ;
     width: 1200px;
     position: relative;
     text-align: center;
 }
 
-.main-text{
+.main-text {
     width: 1200px;
     background-color: black;
     position: absolute;
     bottom: 35%;
-    
+
 }
 
 /* Featured Tea Section */
 
 .content {
     text-align: center;
+    width: 1000px;
 }
 
 
-#feature .content .flex-container{
-    display: flex 
-       
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap
 }
 
 
 img {
     max-width: 200px;
     height: auto;
-    
-   
 }
 
 /* Location Section */
 
-#text {
-    display: inline-flex;
-    align-content: center;
-    background-image: 
-    url(/tea-shop-website/resources/images/img-locations-background.jpg);
+.text {
+    position: absolute;
+    text-align: center;
+    background-image:
+        url(/tea-shop-website/resources/images/img-locations-background.jpg);
     height: 500px;
     width: 1200px;
     margin-bottom: 15px;
 }
 
-.location{
-    display: flex;
-    justify-content: center;
+.location {
     background-color: black;
     height: 300px;
     width: 300px;
+    opacity: 1;
+    line-height: 2;
+
+}
+
+ul {
+    list-style: none;
 }
 
 
 /* Contact Section*/
 
 .contact {
+    width: 1200px;
     height: 200px;
     text-align: center;
 
