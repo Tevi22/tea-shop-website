@@ -36,14 +36,11 @@ li {
 }
 /* Mission. Sectionn */
 
-.box{
-    height: 700px;
-    width: 1200px;
-}
+
 #mission {
     background-image:
         url(/tea-shop-website/resources/images/img-mission-background.jpg);
-    height: ;
+    height: 700px;
     width: 1200px;
     position: relative;
     text-align: center;
@@ -81,18 +78,17 @@ img {
 /* Location Section */
 
 .text {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     background-image:
         url(/tea-shop-website/resources/images/img-locations-background.jpg);
     height: 500px;
     width: 1200px;
-    margin-bottom: 15px;
 }
 
 .location {
     background-color: black;
-    height: 300px;
     width: 300px;
     opacity: 1;
     line-height: 2;
@@ -107,9 +103,13 @@ ul {
 /* Contact Section*/
 
 .contact {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     width: 1200px;
     height: 200px;
     text-align: center;
+
 
 }
 
